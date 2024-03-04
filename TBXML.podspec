@@ -19,4 +19,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'TBXML-Headers/*.h'
   s.source_files = 'TBXML-Headers/*.h', 'TBXML-Code/*.m'
   s.ios.framework = 'UIKit'
+
+  
+  s.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => 'ARC_ENABLED=1' }
 end
