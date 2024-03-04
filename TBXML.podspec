@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.public_header_files = 'TBXML-Headers/*.h'
-  s.source_files = 'TBXML-Code/*.m'
+  s.source_files = 'TBXML-Headers/*.h', 'TBXML-Code/*.m'
   s.ios.framework = 'UIKit'
 end
