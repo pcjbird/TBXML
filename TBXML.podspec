@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
   s.requires_arc = true
 
-  s.head_files = 'TBXML-Headers/*'
-  s.source_files = 'TBXML-Code/*'
+  s.public_header_files = 'TBXML-Headers/*.h'
+  s.source_files = 'TBXML-Code/*.m'
   s.ios.framework = 'UIKit'
 end
