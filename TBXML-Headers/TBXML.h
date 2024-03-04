@@ -1,6 +1,4 @@
 #import <Foundation/Foundation.h>
-#import <TBXML/TBXML+HTTP.h>
-#import <TBXML/TBXML+Compression.h>
 // ================================================================================================
 //  TBXML.h
 //  Fast processing of XML files
