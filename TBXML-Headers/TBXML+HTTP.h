@@ -5,7 +5,7 @@
 //  Copyright 2012 71Squared All rights reserved.
 //
 
-#import "TBXML.h"
+#import <TBXML/TBXML.h>
 
 typedef void (^TBXMLAsyncRequestSuccessBlock)(NSData *,NSURLResponse *);
 typedef void (^TBXMLAsyncRequestFailureBlock)(NSData *,NSError *);
