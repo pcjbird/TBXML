@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '6.0'
   s.requires_arc = true
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
   s.public_header_files = 'TBXML-Headers/*.h'
   s.source_files = 'TBXML-Headers/*.h', 'TBXML-Code/*.m'
